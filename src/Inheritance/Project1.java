@@ -9,7 +9,7 @@ abstract class Shape
     abstract public void compute();
     public void display()
     {
-        System.out.println("The area  is "+area);
+        System.out.println("The area  is "+area +" unit square");
     }
 }
 class Rectangle extends Shape
